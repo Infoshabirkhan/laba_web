@@ -28,12 +28,13 @@ class MyApp extends StatelessWidget {
           BlocProvider(create: (context) => ContactUsCubit())
         ],
         child: MaterialApp(
+          debugShowCheckedModeBanner: false,
 
           title: 'Flutter Demo',
           theme: ThemeData(
             primarySwatch: Colors.blue,
           ),
-          initialRoute: AppRoutes.contactUs ,
+          initialRoute: AppRoutes.downloadScreen ,
           routes: AppRoutes.getRoutes(),
         ),
       ),

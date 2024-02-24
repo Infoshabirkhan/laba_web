@@ -1,0 +1,5 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.laba.itinerary_map",
+    "sha256_cert_fingerprints": ["50:A6:A9:00:2D:62:17:D3:7F:90:26:49:0A:E1:07:B7:55:16:A4:27:69:5D:EC:72:B9:1F:3C:18:2E:90:0E:0E"] }
+}]
