@@ -1,5 +1,15 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target" : { "namespace": "android_app", "package_name": "com.laba.itinerary_map",
-    "sha256_cert_fingerprints": ["50:A6:A9:00:2D:62:17:D3:7F:90:26:49:0A:E1:07:B7:55:16:A4:27:69:5D:EC:72:B9:1F:3C:18:2E:90:0E:0E"] }
-}]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.laba.itinerary_map",
+      "sha256_cert_fingerprints": [
+        "50:A6:A9:00:2D:62:17:D3:7F:90:26:49:0A:E1:07:B7:55:16:A4:27:69:5D:EC:72:B9:1F:3C:18:2E:90:0E:0E",
+        "ED:2F:6C:2D:51:0A:8D:CC:8F:20:DF:B6:AB:1E:1A:8E:B6:3F:20:1E:1C:8E:26:75:4C:25:67:DC:71:C2:E5:C0"
+      ]
+    }
+  }
+]
