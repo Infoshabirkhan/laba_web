@@ -14,12 +14,16 @@ class DownloadAppScreen extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
 
-            Text("You don't have Laba mobile App?",style: TextStyle(
+            // Text("You don't have Laba mobile App?",style: TextStyle(
+            //   fontSize: 20.sp
+            // ),),
+            Text("Vous n'avez pas l'application mobile LABA?",style: TextStyle(
               fontSize: 20.sp
             ),),
 
             SizedBox(height: 20.sp,),
-            ElevatedButton(onPressed: (){}, child: Text('Download it now'))
+            // ElevatedButton(onPressed: (){}, child: Text('Download it now'))
+            ElevatedButton(onPressed: (){}, child: Text('Téléchargez dès maintenant'))
           ],
         ),
       ),
